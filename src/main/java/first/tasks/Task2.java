@@ -13,7 +13,7 @@ public class Task2 {
         scanner.nextLine();
         System.out.println("Input data:");
 
-        String[] array =  new String[count];
+        String[] array = new String[count];
 
         for (int i = 0; i < count; i++) {
             array[i] = scanner.nextLine();
@@ -21,7 +21,7 @@ public class Task2 {
 
         Arrays.sort(array, (String line1, String line2) -> {
             if (line1.length() == (line2.length())) {
-            return line1.compareTo(line2);
+                return line1.compareTo(line2);
             }
             return Integer.compare(line1.length(), line2.length());
         });
