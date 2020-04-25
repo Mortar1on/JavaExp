@@ -29,7 +29,6 @@ public class Task2 {
         for (int i = 0; i < count; i++) {
             System.out.println("Output data:");
             System.out.println("(" + array[i].length() + "): " + array[i]);
-
         }
     }
 }
