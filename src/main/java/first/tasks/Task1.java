@@ -1,4 +1,4 @@
-package first.examples;
+package first.tasks;
 
 import java.io.BufferedReader;
 import java.io.IOException;
